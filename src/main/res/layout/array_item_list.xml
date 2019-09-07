@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    >
+
+    <TextView
+        android:id="@+id/list_number"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:text="1"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:src="@color/cardview_dark_background"
+        android:padding="2dp"
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:gravity="center_vertical"
+            android:id="@+id/list_name"
+            android:text="Default List "
+            android:textSize="20sp"
+            android:textColor="#000000"
+            />
+
+</LinearLayout>

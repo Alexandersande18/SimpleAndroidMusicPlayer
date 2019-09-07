@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../TEST1.iml" filepath="$PROJECT_DIR$/../TEST1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../app/app.iml" filepath="$PROJECT_DIR$/../app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../javalayout_test/javalayout_test.iml" filepath="$PROJECT_DIR$/../javalayout_test/javalayout_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/playertest.iml" filepath="$PROJECT_DIR$/playertest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tablelayout/tablelayout.iml" filepath="$PROJECT_DIR$/../tablelayout/tablelayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../test2/test2.iml" filepath="$PROJECT_DIR$/../test2/test2.iml" />
+    </modules>
+  </component>
+</project>

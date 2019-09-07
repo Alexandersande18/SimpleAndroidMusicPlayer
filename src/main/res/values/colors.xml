@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#44ddcc</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="icon_red">#ff4e50</color>
+    <color name="icon_orange">#ff984e</color>
+    <color name="icon_yellow">#fffa50</color>
+    <color name="icon_green">#b1ff4f</color>
+    <color name="icon_blue">#4ec1ff</color>
+    <color name = "miku"></color>
+</resources>

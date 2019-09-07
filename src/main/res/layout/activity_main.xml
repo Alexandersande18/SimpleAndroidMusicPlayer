@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:weightSum="30">
+
+    <ListView
+        android:id="@+id/playlist"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:layout_gravity="top"
+        android:divider="#555555"
+        android:dividerHeight="0.5dp"
+        android:minHeight="2dp" />
+
+    <LinearLayout
+        android:id="@+id/bottoms"
+        android:layout_width="match_parent"
+        android:layout_weight="5"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:background="#cccccc"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/osutest"
+            android:id="@+id/nowalbum"
+            android:padding="5dp"
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <SeekBar
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/playbar"
+                android:progress="0"
+                android:progressBackgroundTint="#66ffcc"
+                android:progressTint="#66ffcc"
+                android:thumbTint="#66ffcc"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Tap a Song to Play"
+                android:id="@+id/nowplaying"
+                android:textSize="15dp"
+                android:singleLine="true"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="20"
+                >
+                <Button
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/icon_playmod_listloop"
+                    android:id="@+id/playmod"
+                    android:onClick="Onmodechange"
+                    android:backgroundTint="#66ffcc"
+                    android:layout_margin="5dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    />
+
+                <Button
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:background="@drawable/icon_previous"
+                    android:layout_marginVertical="5dp"
+                    android:id="@+id/prevbutton"
+                    android:backgroundTint="#66ffcc"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    />
+                <Button
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:id="@+id/playbutton"
+                    android:background="@drawable/icon_pause"
+                    android:backgroundTint="#66ffcc"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    />
+                <Button
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:id="@+id/nextbutton"
+                    android:background="@drawable/icon_next"
+                    android:layout_marginVertical="5dp"
+                    android:backgroundTint="#66ffcc"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    />
+                <Button
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:id="@+id/enterplaylist"
+                    android:background="@drawable/icon_enterlist"
+                    android:backgroundTint="#66ffcc"
+                    android:layout_margin="5dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
